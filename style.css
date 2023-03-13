@@ -13,7 +13,9 @@
 /* Background */
 body {
     background-image: url(./src/img/Wallpaper.jpg);
+    height: 100vh;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* Card principal */
@@ -79,4 +81,10 @@ body {
 .icons {
     width: 30px;
     margin: 0 15px 0 0;
+    
+}
+
+
+.steam {
+    width: 35px;
 }
