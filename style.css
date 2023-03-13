@@ -44,7 +44,7 @@ body {
 
 .profileName {
     margin: 10px 0;
-    font-size: 35px;
+    font-size: 33px;
     color: white;
 }
 
@@ -75,7 +75,7 @@ body {
 
 .mainCard ul li a:hover{
     transform:scale(1.1);
-    transition: 300ms;
+    transition: 220ms;
 }
 
 .icons {
