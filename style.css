@@ -13,8 +13,7 @@
 /* Background */
 body {
     background-image: url(./src/img/Wallpaper.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-attachment: fixed;
 }
 
@@ -88,3 +87,39 @@ body {
 .steam {
     width: 35px;
 }
+
+/* RESPONSIVO */
+
+
+    @media screen and (max-width: 900px) {
+        /* Card principal */
+        .mainCard {
+          width: 80%;
+        }
+      
+        /* Profile */
+        .profile {
+          width: 120px;
+          height: 120px;
+          margin-top: 30px;
+        }
+      
+        .profileName {
+          font-size: 28px;
+        }
+      
+        /* Links */
+        .mainCard ul li a {
+          width: 250px;
+          height: 50px;
+          font-size: 14px;
+        }
+      
+        .icons {
+          width: 25px;
+        }
+      
+        .steam {
+          width: 30px;
+        }
+    }
