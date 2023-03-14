@@ -88,6 +88,10 @@ body {
     width: 35px;
 }
 
+#discordAncora {
+    cursor: pointer;
+}
+
 /* RESPONSIVO */
 
 
