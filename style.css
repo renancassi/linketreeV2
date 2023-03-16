@@ -92,6 +92,12 @@ body {
     cursor: pointer;
 }
 
+.footerInfo {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
 /* RESPONSIVO */
 
 
