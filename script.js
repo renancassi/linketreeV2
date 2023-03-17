@@ -11,7 +11,7 @@ function copyText() {
         discordSpan.innerText = "Discord"
       }, 2000)
     }, function(err) {
-      discordSpan.innerText = "Erro :/"
+      discordSpan.innerText = `Erro: ${err}`
       console.error('Não foi possível copiar o texto: ', err);
     });
 }
