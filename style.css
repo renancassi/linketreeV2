@@ -69,7 +69,7 @@ body {
     height: 55px;
     color: white;
     border-radius: 10px;
-    transition: transform 220ms ease-out;
+    transition: 220ms ease-out;
 }
 
 .mainCard ul li a:hover{
